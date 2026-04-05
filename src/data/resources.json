@@ -1,0 +1,304 @@
+{
+  "resources": [
+    {
+      "id": "r-fe-1",
+      "dimension": "focus-energy",
+      "zone": "compounding",
+      "title": "Sparkling Water & Cognitive Fatigue",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/learning-reinvented",
+      "affiliateUrl": null,
+      "description": "How your environment drains cognitive resources without you noticing"
+    },
+    {
+      "id": "r-fe-2",
+      "dimension": "focus-energy",
+      "zone": "compounding",
+      "title": "Mismatch",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://amzn.to/3Flg50s",
+      "description": "A mismatch between someone's needs and a product causes exclusion. Provides practices and processes to build more inclusive systems and products."
+    },
+    {
+      "id": "r-fe-3",
+      "dimension": "focus-energy",
+      "zone": "accumulating",
+      "title": "Corporate Universities & Environment Design",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/learnings-1950s-makeover",
+      "affiliateUrl": null,
+      "description": "Designing environments that support deep thinking"
+    },
+    {
+      "id": "r-fe-4",
+      "dimension": "focus-energy",
+      "zone": "accumulating",
+      "title": "Engaged: Neuroscience of Productive People",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://amzn.to/3MLlsu1",
+      "description": "Research informed and accessible. When you organize talent and development around the human brain instead of traditional approaches you end up with better business results."
+    },
+    {
+      "id": "r-fe-5",
+      "dimension": "focus-energy",
+      "zone": "low",
+      "title": "Pop-ups & Experiential Learning",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/learnings-1950s-makeover",
+      "affiliateUrl": null,
+      "description": "Advanced techniques for immersive learning environments"
+    },
+    {
+      "id": "r-fe-6",
+      "dimension": "focus-energy",
+      "zone": "low",
+      "title": "The Timeless Way of Building",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://bookshop.org/a/103760/9780195024029",
+      "description": "Understand design better by looking at patterns in how things were done in the past. Advocates designing to support the whole human and promote their sense of well being."
+    },
+    {
+      "id": "r-fw-1",
+      "dimension": "faster-work",
+      "zone": "compounding",
+      "title": "OECD Digital Ed Outlook: AI as Cognitive Crutch",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/what-shall-we-do-about-ai-being-a",
+      "affiliateUrl": null,
+      "description": "When does helpful AI become a cognitive dependency?"
+    },
+    {
+      "id": "r-fw-2",
+      "dimension": "faster-work",
+      "zone": "compounding",
+      "title": "Make It Stick",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://bookshop.org/a/103760/9780674729018",
+      "description": "Understand the cognitive science behind learning and study habits. Helps you become a credible expert fast whether you're generating new content or facilitating content you're not an expert in."
+    },
+    {
+      "id": "r-fw-3",
+      "dimension": "faster-work",
+      "zone": "accumulating",
+      "title": "Passenger Landing the Plane",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/learning-reinvented",
+      "affiliateUrl": null,
+      "description": "What happens when we over-rely on automation"
+    },
+    {
+      "id": "r-fw-4",
+      "dimension": "faster-work",
+      "zone": "accumulating",
+      "title": "Integrating AI into Learning Design",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://amzn.to/4bec9N9",
+      "description": "An excellent primer for how to think about AI strategically with Learning Design. Practical real world advice and hands on activities you can use with jr learning designers."
+    },
+    {
+      "id": "r-fw-5",
+      "dimension": "faster-work",
+      "zone": "low",
+      "title": "Teach Product, Not Prompts",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/teach-product-not-prompts",
+      "affiliateUrl": null,
+      "description": "Building genuine understanding vs. surface-level AI fluency"
+    },
+    {
+      "id": "r-fw-6",
+      "dimension": "faster-work",
+      "zone": "low",
+      "title": "Fortune: Tech Making Kids Less Capable",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/addition-through-subtraction",
+      "affiliateUrl": null,
+      "description": "Organizational patterns of cognitive offloading"
+    },
+    {
+      "id": "r-fk-1",
+      "dimension": "fading-knowledge",
+      "zone": "compounding",
+      "title": "Curiosity & Dopamine: Why We Want to Learn",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/curiosity-isnt-born-its-built",
+      "affiliateUrl": null,
+      "description": "Understanding what drives the urge to learn — a fun entry point"
+    },
+    {
+      "id": "r-fk-2",
+      "dimension": "fading-knowledge",
+      "zone": "compounding",
+      "title": "Make It Stick",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://bookshop.org/a/103760/9780674729018",
+      "description": "Understand the cognitive science behind learning and study habits. Helps you become a credible expert fast whether you're generating new content or facilitating content you're not an expert in."
+    },
+    {
+      "id": "r-fk-3",
+      "dimension": "fading-knowledge",
+      "zone": "accumulating",
+      "title": "Huberman Protocols for Studying",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/learning-reinvented",
+      "affiliateUrl": null,
+      "description": "Neuroscience-backed protocols for better learning and retention"
+    },
+    {
+      "id": "r-fk-4",
+      "dimension": "fading-knowledge",
+      "zone": "accumulating",
+      "title": "Design For How People Learn",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://amzn.to/3UpysW5",
+      "description": "A must read if you work in L&D. Contains actionable research to reach people and help them learn regardless of the modality."
+    },
+    {
+      "id": "r-fk-5",
+      "dimension": "fading-knowledge",
+      "zone": "low",
+      "title": "Desirable Difficulty & Productive Friction",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/teach-product-not-prompts",
+      "affiliateUrl": null,
+      "description": "Why making learning harder can make it better"
+    },
+    {
+      "id": "r-fk-6",
+      "dimension": "fading-knowledge",
+      "zone": "low",
+      "title": "DeepMind AI Tutors & the Testing Effect",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/learning-reinvented",
+      "affiliateUrl": null,
+      "description": "Advanced research on retrieval practice and AI-assisted learning"
+    },
+    {
+      "id": "r-sl-1",
+      "dimension": "skill-loss",
+      "zone": "compounding",
+      "title": "Bruce Lee & the Zen Parable on Unlearning",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/addition-through-subtraction",
+      "affiliateUrl": null,
+      "description": "An accessible introduction to why unlearning matters"
+    },
+    {
+      "id": "r-sl-2",
+      "dimension": "skill-loss",
+      "zone": "compounding",
+      "title": "Getting to Yes",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://amzn.to/3Z2qzrS",
+      "description": "Reframe your requests on people's time for what might build mutual advantage and value — for SMEs, leaders who own your budget, and critical stakeholders."
+    },
+    {
+      "id": "r-sl-3",
+      "dimension": "skill-loss",
+      "zone": "accumulating",
+      "title": "World Learning Content Cleanup Day",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/addition-through-subtraction",
+      "affiliateUrl": null,
+      "description": "How organizations can systematically identify and retire outdated knowledge"
+    },
+    {
+      "id": "r-sl-4",
+      "dimension": "skill-loss",
+      "zone": "accumulating",
+      "title": "Kirkpatrick's Four Levels",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://bookshop.org/p/books/kirkpatrick-s-four-levels-of-training-evaluation-james-d-kirkpatrick/12799097?ean=9780899902807",
+      "description": "Won't teach you everything about training evaluation but will get you to a point where you can talk about evaluation with other industry professionals."
+    },
+    {
+      "id": "r-sl-5",
+      "dimension": "skill-loss",
+      "zone": "low",
+      "title": "Skills-Based Mirage",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/the-skills-based-mirage-and-the-ai",
+      "affiliateUrl": null,
+      "description": "Challenging assumptions about skills-based organizational models"
+    },
+    {
+      "id": "r-sl-6",
+      "dimension": "skill-loss",
+      "zone": "low",
+      "title": "LMS/LXP Convergence",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/your-lms-is-just-a-system-of-record",
+      "affiliateUrl": null,
+      "description": "How platform evolution forces us to unlearn old tool paradigms"
+    },
+    {
+      "id": "r-mh-1",
+      "dimension": "mental-habits",
+      "zone": "compounding",
+      "title": "Curiosity & Dopamine Study",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/curiosity-isnt-born-its-built",
+      "affiliateUrl": null,
+      "description": "Understanding the neurochemistry of attention and awareness"
+    },
+    {
+      "id": "r-mh-2",
+      "dimension": "mental-habits",
+      "zone": "compounding",
+      "title": "Creative Acts for Curious People",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://bookshop.org/a/103760/9781984858160",
+      "description": "Put your SMEs in creative situations to get them to reveal what they know. One of the best exercises is #36, the unpacking exercise. Fantastic book for your desk."
+    },
+    {
+      "id": "r-mh-3",
+      "dimension": "mental-habits",
+      "zone": "accumulating",
+      "title": "COM-B Behavioral Frameworks",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/curiosity-isnt-born-its-built",
+      "affiliateUrl": null,
+      "description": "A practical framework for understanding behavioral patterns in organizations"
+    },
+    {
+      "id": "r-mh-4",
+      "dimension": "mental-habits",
+      "zone": "accumulating",
+      "title": "Engaged",
+      "type": "book",
+      "url": "",
+      "affiliateUrl": "https://amzn.to/3MLlsu1",
+      "description": "Research informed and accessible. When you organize talent and development around the human brain instead of traditional approaches you end up with better business results."
+    },
+    {
+      "id": "r-mh-5",
+      "dimension": "mental-habits",
+      "zone": "low",
+      "title": "GenAI as Cognitive Mediator",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/the-skills-based-mirage-and-the-ai",
+      "affiliateUrl": null,
+      "description": "Advanced exploration of how AI changes our relationship with thinking"
+    },
+    {
+      "id": "r-mh-6",
+      "dimension": "mental-habits",
+      "zone": "low",
+      "title": "CLO Disconnect on Measurement",
+      "type": "episode",
+      "url": "https://alyn.substack.com/p/the-clo-and-l-and-d-disconnect",
+      "affiliateUrl": null,
+      "description": "Why what we measure shapes how we think about cognitive performance"
+    }
+  ]
+}

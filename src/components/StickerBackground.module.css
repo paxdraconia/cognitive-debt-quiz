@@ -1,0 +1,10 @@
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url('../assets/Sticker Bomb.jpg');
+  background-size: 2560px 1440px;
+  background-repeat: repeat;
+  opacity: 0.13;
+}

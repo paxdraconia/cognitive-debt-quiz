@@ -1,0 +1,68 @@
+.card {
+  width: 100%;
+  max-width: var(--card-max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-xl);
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-md);
+  background: rgba(0, 196, 204, 0.1);
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  border-radius: var(--radius-xl);
+  margin-bottom: var(--space-xl);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.body {
+  font-size: var(--font-size-lg);
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: var(--space-xl);
+}
+
+.reflection {
+  font-style: italic;
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+  line-height: 1.6;
+  padding: var(--space-lg);
+  background: rgba(26, 42, 69, 0.03);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--color-accent);
+  text-align: left;
+  margin-bottom: var(--space-xl);
+}
+
+.continueButton {
+  padding: var(--space-md) var(--space-2xl);
+  background: var(--color-accent-secondary);
+  color: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.continueButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 199, 89, 0.4);
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .body {
+    font-size: var(--font-size-base);
+  }
+}

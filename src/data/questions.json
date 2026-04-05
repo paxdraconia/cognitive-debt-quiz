@@ -1,0 +1,117 @@
+{
+  "version": 2,
+  "dimensions": [
+    { "id": "faster-work", "label": "Faster Work", "shortLabel": "Faster Work" },
+    { "id": "skill-loss", "label": "Skill Loss & Future Workforce", "shortLabel": "Skill Loss" },
+    { "id": "fading-knowledge", "label": "Fading Company Knowledge", "shortLabel": "Fading Knowledge" },
+    { "id": "focus-energy", "label": "Focus, Energy & Overwhelm", "shortLabel": "Focus" },
+    { "id": "mental-habits", "label": "Building Lasting Mental Habits", "shortLabel": "Mental Habits" }
+  ],
+  "questions": [
+    {
+      "id": "fw-1",
+      "dimension": "faster-work",
+      "clusterIndex": 0,
+      "questionIndex": 0,
+      "stem": "Employees in my organization believe they are completing tasks significantly faster with AI assistance than they actually are."
+    },
+    {
+      "id": "fw-2",
+      "dimension": "faster-work",
+      "clusterIndex": 0,
+      "questionIndex": 1,
+      "stem": "Employees frequently use AI to generate materials that look perfect at first glance but require significant human time to fix subtle errors."
+    },
+    {
+      "id": "fw-3",
+      "dimension": "faster-work",
+      "clusterIndex": 0,
+      "questionIndex": 2,
+      "stem": "Team members often struggle to explain the logic or reasoning behind work they completed with the help of AI."
+    },
+    {
+      "id": "sl-1",
+      "dimension": "skill-loss",
+      "clusterIndex": 1,
+      "questionIndex": 0,
+      "stem": "I have noticed a decline in the ability of entry-level or junior employees to handle basic tasks on their own without using automated tools."
+    },
+    {
+      "id": "sl-2",
+      "dimension": "skill-loss",
+      "clusterIndex": 1,
+      "questionIndex": 1,
+      "stem": "Teams in my organization tend to accept AI-suggested answers over an experienced leader's technical acumen or professional intuition without stopping to double-check them manually."
+    },
+    {
+      "id": "sl-3",
+      "dimension": "skill-loss",
+      "clusterIndex": 1,
+      "questionIndex": 2,
+      "stem": "Work created using AI is frequently redone or heavily rewritten later because it lacked the right context or deep understanding."
+    },
+    {
+      "id": "fk-1",
+      "dimension": "fading-knowledge",
+      "clusterIndex": 2,
+      "questionIndex": 0,
+      "stem": "If a key process or system in my department breaks down today, very few of my current team members could explain how it works without referencing original automated prompts."
+    },
+    {
+      "id": "fk-2",
+      "dimension": "fading-knowledge",
+      "clusterIndex": 2,
+      "questionIndex": 1,
+      "stem": "When an experienced employee leaves or a project is handed over, a significant amount of undocumented background context and 'know-how' is permanently lost."
+    },
+    {
+      "id": "fk-3",
+      "dimension": "fading-knowledge",
+      "clusterIndex": 2,
+      "questionIndex": 2,
+      "stem": "It has become more difficult and time-consuming to train new hires to an advanced level of understanding, despite having access to more digital documentation."
+    },
+    {
+      "id": "fe-1",
+      "dimension": "focus-energy",
+      "clusterIndex": 3,
+      "questionIndex": 0,
+      "stem": "My employees lack the uninterrupted focus time during the workday needed to engage in deep learning or complex problem-solving."
+    },
+    {
+      "id": "fe-2",
+      "dimension": "focus-energy",
+      "clusterIndex": 3,
+      "questionIndex": 1,
+      "stem": "My employees struggle to find the daily time and energy to do their jobs effectively because they are overwhelmed by the volume of digital communications like emails and chat messages."
+    },
+    {
+      "id": "fe-3",
+      "dimension": "focus-energy",
+      "clusterIndex": 3,
+      "questionIndex": 2,
+      "stem": "My employees find it difficult to innovate or think strategically because they are overloaded with managing day-to-day digital tasks and messages."
+    },
+    {
+      "id": "mh-1",
+      "dimension": "mental-habits",
+      "clusterIndex": 4,
+      "questionIndex": 0,
+      "stem": "Employees typically use AI tools to generate initial ideas before doing any independent brainstorming or drafting."
+    },
+    {
+      "id": "mh-2",
+      "dimension": "mental-habits",
+      "clusterIndex": 4,
+      "questionIndex": 1,
+      "stem": "Teams in my organization tend to trust and copy AI-generated answers without actively questioning or verifying the information."
+    },
+    {
+      "id": "mh-3",
+      "dimension": "mental-habits",
+      "clusterIndex": 4,
+      "questionIndex": 2,
+      "stem": "Our organization lacks learning exercises or training that challenge employees to solve hard problems without using technology for scenarios that might occur at work."
+    }
+  ]
+}

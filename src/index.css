@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import './styles/variables.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.main {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl) var(--space-md);
+  padding-top: calc(var(--progress-height) + var(--space-xl));
+}
+
+.card-container {
+  width: 100%;
+  max-width: var(--card-max-width);
+  background: var(--color-card);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+/* Intro screen */
+.intro {
+  text-align: center;
+  padding: var(--space-2xl) var(--space-xl);
+}
+
+.intro-content {
+  padding: var(--space-2xl) 0;
+}
+
+.intro-brand {
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-accent);
+  font-weight: 700;
+  margin-bottom: var(--space-xs);
+}
+
+.intro-title {
+  font-size: var(--font-size-3xl);
+  color: var(--color-primary);
+  font-weight: 800;
+  margin-bottom: var(--space-lg);
+  letter-spacing: -0.02em;
+}
+
+.intro-subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-bottom: var(--space-2xl);
+  opacity: 0.8;
+}
+
+.intro-button {
+  padding: var(--space-md) var(--space-2xl);
+  background: var(--color-accent-secondary);
+  color: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.intro-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 199, 89, 0.4);
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: var(--space-md) var(--space-sm);
+    align-items: flex-start;
+    padding-top: calc(var(--progress-height) + var(--space-md));
+  }
+
+  .card-container {
+    border-radius: var(--radius-lg);
+  }
+
+  .intro-title {
+    font-size: var(--font-size-2xl);
+  }
+}

@@ -1,0 +1,145 @@
+.gate {
+  text-align: center;
+  padding: var(--space-xl);
+  background: rgba(26, 42, 69, 0.02);
+  border-radius: var(--radius-lg);
+  margin-top: var(--space-xl);
+}
+
+.gateTitle {
+  font-size: var(--font-size-xl);
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.gateText {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-bottom: var(--space-lg);
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gateActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.subscribeButton {
+  display: inline-block;
+  padding: var(--space-md) var(--space-2xl);
+  background: var(--color-accent-secondary);
+  color: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--font-sans);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.subscribeButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 199, 89, 0.4);
+}
+
+.skipButton {
+  background: none;
+  border: none;
+  color: var(--color-text);
+  opacity: 0.5;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: var(--font-sans);
+}
+
+.skipButton:hover {
+  opacity: 0.8;
+}
+
+/* Resource list */
+.resourceList {
+  margin-top: var(--space-xl);
+}
+
+.resourceTitle {
+  font-size: var(--font-size-xl);
+  color: var(--color-primary);
+  margin-bottom: var(--space-lg);
+}
+
+.dimensionGroup {
+  margin-bottom: var(--space-lg);
+}
+
+.dimensionLabel {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: var(--font-size-sm);
+}
+
+.resource {
+  display: flex;
+  gap: var(--space-sm);
+  padding: var(--space-sm) 0;
+  align-items: flex-start;
+}
+
+.typeBadge {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.typeBadge.episode {
+  background: rgba(0, 196, 204, 0.1);
+  color: #00a0a6;
+}
+
+.typeBadge.book {
+  background: rgba(255, 199, 89, 0.2);
+  color: #b88a00;
+}
+
+.resourceInfo {
+  flex: 1;
+}
+
+.resourceLink {
+  color: var(--color-primary);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-accent);
+}
+
+.resourceLink:hover {
+  color: var(--color-accent);
+}
+
+.resourceName {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.resourceDesc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  opacity: 0.7;
+  margin-top: 2px;
+  line-height: 1.4;
+}

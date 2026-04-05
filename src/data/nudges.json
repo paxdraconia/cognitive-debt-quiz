@@ -1,0 +1,34 @@
+{
+  "nudges": [
+    {
+      "dimension": "faster-work",
+      "afterCluster": 0,
+      "body": "We are living in a productivity hallucination. AI produces 'polished' output in seconds, but if your team can't explain the logic behind it, you are building on a foundation you don't own. The tool is a rounding error; the real cost is the gap between looking fast and being capable.",
+      "reflectionPrompt": "When was the last time you paid twice for the same project—once for the AI to generate it, and again for a human to fix it? Did anyone measure how long it took?"
+    },
+    {
+      "dimension": "skill-loss",
+      "afterCluster": 1,
+      "body": "We are liquidating talent. When a junior employee can't perform a core task without a prompt, it's a systemic problem. If we saw off the bottom rungs of our own career ladders we need to think about how we educate people up to a minimum that was 2 rungs up. By the time we need these people to lead, the intuition required for the job will have already atrophied.",
+      "reflectionPrompt": "If you removed AI tools from your team for one week, which core competencies would you discover have evaporated?"
+    },
+    {
+      "dimension": "fading-knowledge",
+      "afterCluster": 2,
+      "body": "When we encode a process into a prompt or an agent instead of a person, we create a dependency that remains invisible until it becomes fatal. We might have the documentation, but we've lost the interaction logic. Automation without understanding is institutional amnesia at scale.",
+      "reflectionPrompt": "If your top three subject-matter experts left tomorrow, how much of their undocumented know how would walk out the door with them?"
+    },
+    {
+      "dimension": "focus-energy",
+      "afterCluster": 3,
+      "body": "Cognitive overload isn't just a design problem it's an embezzlement of your most valuable asset: attention. When your teams are drowning in AI-generated noise, they turn to firefighting. We've traded the depth required for complex judgment for the shallow dopamine of notification velocity.",
+      "reflectionPrompt": "How many hours of focus does your team need per week and how much do they get? Is it enough to keep the business off the floor? We can't pay for people to pretend to read Slack."
+    },
+    {
+      "dimension": "mental-habits",
+      "afterCluster": 4,
+      "body": "Don't surrender agency. When AI becomes the default for every thought, we are being shaped by our tools. In AI enabled work, verification has become an optional chore, and independent reasoning is now a luxury. We must trade comfort for productive struggle in order to be effective and generate original ideas.",
+      "reflectionPrompt": "If your business relies on original ideas you cannot afford cognitive defaults. What structured practices are needed to encourage employees to think through problems independently before turning to AI?"
+    }
+  ]
+}

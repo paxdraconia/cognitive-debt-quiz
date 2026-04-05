@@ -1,0 +1,139 @@
+.card {
+  width: 100%;
+  max-width: var(--card-max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-xl);
+}
+
+.stem {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  color: var(--color-primary);
+  margin-bottom: var(--space-2xl);
+  font-weight: 500;
+}
+
+/* Slider / Likert scale */
+.sliderContainer {
+  margin: var(--space-lg) 0;
+}
+
+.scaleLabels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-md);
+}
+
+.scaleEnd {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--space-sm);
+  position: relative;
+}
+
+.dots::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: var(--space-sm);
+  right: var(--space-sm);
+  height: 3px;
+  background: rgba(26, 42, 69, 0.1);
+  border-radius: 2px;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.dot {
+  position: relative;
+  z-index: 1;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid rgba(26, 42, 69, 0.15);
+  background: var(--color-card);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  transition: all 0.2s;
+}
+
+.dot:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  transform: scale(1.1);
+  box-shadow: 0 0 0 4px rgba(0, 196, 204, 0.15);
+}
+
+.dot.dotActive {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  transform: scale(1.15);
+  box-shadow: 0 0 0 6px rgba(0, 196, 204, 0.2);
+}
+
+.dotNumber {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.dotActive .dotNumber {
+  color: white;
+}
+
+.valueLabel {
+  text-align: center;
+  margin-top: var(--space-md);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.nextButton {
+  display: block;
+  margin: var(--space-xl) auto 0;
+  padding: var(--space-md) var(--space-2xl);
+  background: var(--color-accent-secondary);
+  color: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.nextButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 199, 89, 0.4);
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .stem {
+    font-size: var(--font-size-base);
+  }
+
+  .dot {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dotNumber {
+    font-size: var(--font-size-sm);
+  }
+}

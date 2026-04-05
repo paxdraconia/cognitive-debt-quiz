@@ -1,0 +1,25 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--progress-height);
+  background: rgba(26, 42, 69, 0.1);
+  z-index: 20;
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-secondary));
+  border-radius: 0 2px 2px 0;
+}
+
+.label {
+  position: absolute;
+  right: var(--space-md);
+  top: calc(var(--progress-height) + 8px);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  opacity: 0.5;
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,88 @@
+.container {
+  border-bottom: 1px solid rgba(26, 42, 69, 0.08);
+}
+
+.container:last-child {
+  border-bottom: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.label {
+  font-weight: 600;
+  font-size: var(--font-size-base);
+}
+
+.zone {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-xl);
+  font-weight: 500;
+}
+
+.low {
+  background: rgba(0, 196, 204, 0.1);
+  color: #00a0a6;
+}
+
+.accumulating {
+  background: rgba(255, 199, 89, 0.2);
+  color: #b88a00;
+}
+
+.compounding {
+  background: rgba(255, 107, 107, 0.1);
+  color: #d44;
+}
+
+.scoreValue {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.chevron {
+  font-size: 0.75rem;
+  transition: transform 0.25s;
+  color: var(--color-text);
+  opacity: 0.4;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.body {
+  overflow: hidden;
+}
+
+.summary {
+  padding: 0 0 var(--space-md);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-text);
+  opacity: 0.85;
+}

@@ -1,0 +1,91 @@
+{
+  "dimensionSummaries": {
+    "faster-work": {
+      "low": "Your organization has a healthy relationship with AI-assisted speed. Teams understand the difference between genuine efficiency gains and surface-level polish — and they're not confusing the two.",
+      "accumulating": "There are signs that AI-generated speed is creating blind spots in your organization. Some work is moving faster than understanding, and the gap between output quality and actual comprehension is starting to show.",
+      "compounding": "Your organization is heavily reliant on AI speed without adequate verification or understanding. The 'fast but fragile' pattern is well-established — polished outputs are masking significant gaps in team comprehension and reasoning."
+    },
+    "skill-loss": {
+      "low": "Your workforce is maintaining core competencies even as automation increases. Junior employees can still handle fundamental tasks independently, and human judgment hasn't been displaced by default AI trust.",
+      "accumulating": "Skill erosion is beginning to surface in your organization. Entry-level capabilities are weakening, and there's a growing tendency to defer to AI over experienced human judgment without adequate verification.",
+      "compounding": "Your organization is experiencing significant skill atrophy. Core competencies that should be developing in junior employees are being bypassed by automation, and the muscle memory of independent problem-solving is fading."
+    },
+    "fading-knowledge": {
+      "low": "Your organization retains institutional knowledge well. Critical systems are understood by people — not just encoded in prompts — and knowledge transfer processes are functioning.",
+      "accumulating": "Institutional knowledge is becoming more fragile in your organization. Key processes are increasingly dependent on specific individuals, and undocumented context is at risk when people move on.",
+      "compounding": "Your organization is losing institutional knowledge at a concerning rate. Critical 'know-how' lives in too few heads, training new hires to depth is getting harder despite more documentation, and system understanding is dangerously thin."
+    },
+    "focus-energy": {
+      "low": "Your teams have adequate space for deep work and strategic thinking. The organization's communication patterns support — rather than undermine — the cognitive demands of complex work.",
+      "accumulating": "Digital overload is starting to crowd out deep work in your organization. Employees have some focus time, but the volume of communications and task-switching is eroding their capacity for strategic thinking.",
+      "compounding": "Your organization's work environment is systematically preventing deep thinking. Employees are overwhelmed by digital communications, lack uninterrupted focus time, and have little cognitive space left for innovation or strategic work."
+    },
+    "mental-habits": {
+      "low": "Your organization fosters independent thinking alongside AI use. Employees brainstorm before prompting, verify AI outputs, and have opportunities to solve problems without technology — building durable cognitive skills.",
+      "accumulating": "AI is becoming the default starting point for too much thinking in your organization. Verification habits are inconsistent, and there are gaps in training that challenge employees to think independently.",
+      "compounding": "Your organization has developed a strong dependency on AI as a thinking crutch. Independent brainstorming is rare, AI outputs are accepted without sufficient scrutiny, and there are few structured opportunities to build problem-solving skills without technology."
+    }
+  },
+  "overallProfiles": [
+    {
+      "id": "profile-resilient-org",
+      "condition": { "rule": "allZonesIn", "zones": ["low"] },
+      "title": "The Resilient Organization",
+      "summary": "Across all five dimensions, your organization is managing cognitive debt remarkably well. Your teams maintain genuine capability alongside their tools, and your practices reflect intentional investment in human judgment. This is rare — and it's a strategic advantage."
+    },
+    {
+      "id": "profile-aware-leader",
+      "condition": { "rule": "majorityInZone", "zone": "low", "threshold": 3 },
+      "title": "The Aware Leader",
+      "summary": "Your organization is strong in most dimensions — but the areas where debt is accumulating deserve attention before they compound. The good news: you're clearly paying attention to how your teams work, not just what they produce. That awareness is your biggest asset."
+    },
+    {
+      "id": "profile-emerging-risk",
+      "condition": { "rule": "majorityInZone", "zone": "accumulating", "threshold": 3 },
+      "title": "Emerging Risk",
+      "summary": "Your organization sits in the middle of the cognitive debt spectrum — which is where most organizations land right now. Debt is accumulating in several areas, but nothing is irreversible yet. The diagnostic below shows you exactly where to focus intervention."
+    },
+    {
+      "id": "profile-structural-debt",
+      "condition": { "rule": "majorityInZone", "zone": "compounding", "threshold": 3 },
+      "title": "Structural Debt",
+      "summary": "Multiple dimensions are showing compounding cognitive debt in your organization. This isn't a reflection of poor leadership — it's a systemic challenge that most organizations are facing. But awareness is the prerequisite for change, and now you can see exactly where the debt lives."
+    },
+    {
+      "id": "profile-speed-trap",
+      "condition": { "rule": "highestDebt", "dimension": "faster-work" },
+      "title": "The Speed Trap",
+      "summary": "Your organization's biggest cognitive debt is in the illusion of AI-assisted speed. Work is moving faster than understanding, and the gap between polished output and genuine comprehension is your most urgent risk."
+    },
+    {
+      "id": "profile-hollowing-out",
+      "condition": { "rule": "highestDebt", "dimension": "skill-loss" },
+      "title": "The Hollowing Out",
+      "summary": "Skill erosion is your organization's most pressing cognitive debt. Core competencies — especially in junior employees — are atrophying as automation replaces the learning-by-doing that builds expertise. This is a workforce development issue with long-term strategic implications."
+    },
+    {
+      "id": "profile-amnesia-risk",
+      "condition": { "rule": "highestDebt", "dimension": "fading-knowledge" },
+      "title": "Institutional Amnesia",
+      "summary": "Your organization's deepest cognitive debt is in fading institutional knowledge. Critical understanding lives in too few heads, knowledge transfer is fragile, and the documentation that exists isn't translating into genuine comprehension."
+    },
+    {
+      "id": "profile-burnout-zone",
+      "condition": { "rule": "highestDebt", "dimension": "focus-energy" },
+      "title": "The Burnout Zone",
+      "summary": "Digital overwhelm is your organization's primary cognitive debt driver. Your teams lack the uninterrupted time needed for deep work, strategic thinking, and innovation. This is an environmental design problem — and it's solvable."
+    },
+    {
+      "id": "profile-autopilot-org",
+      "condition": { "rule": "highestDebt", "dimension": "mental-habits" },
+      "title": "Organizational Autopilot",
+      "summary": "Your organization's deepest debt is in how your people think — or more precisely, in how AI is shaping their default thinking patterns. Independent reasoning is being displaced by tool dependency, and there aren't enough structured opportunities to build durable cognitive skills."
+    },
+    {
+      "id": "profile-mixed",
+      "condition": { "rule": "default" },
+      "title": "Mixed Signals",
+      "summary": "Your organization's cognitive debt profile is varied — strong in some areas, building in others. That's an honest result, and it gives you clear priorities. The dimension breakdown below shows exactly where intervention will have the highest return."
+    }
+  ]
+}
