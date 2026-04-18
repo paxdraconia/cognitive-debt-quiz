@@ -38,6 +38,19 @@ export default function ResourceGate({ resources, unlocked, onUnlock, scores }) 
   return (
     <div className={styles.resourceList}>
       <h3 className={styles.resourceTitle}>Custom Reading List</h3>
+      <div className={styles.whitepaperBanner}>
+        <div className={styles.whitepaperText}>
+          <strong>Want to go deeper?</strong> The Cognitive Debt white paper covers the research and
+          frameworks behind these results.
+        </div>
+        <a
+          href="/cognitive-debt-whitepaper.pdf"
+          download
+          className={styles.whitepaperDownload}
+        >
+          Download White Paper
+        </a>
+      </div>
       {sortedDimensions.map(([dim, items]) => (
         <div key={dim} className={styles.dimensionGroup}>
           <h4 className={styles.dimensionLabel}>{DIMENSION_LABELS[dim]}</h4>

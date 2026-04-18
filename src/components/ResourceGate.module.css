@@ -75,6 +75,41 @@
   margin-bottom: var(--space-lg);
 }
 
+.whitepaperBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: rgba(26, 42, 69, 0.05);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-lg);
+}
+
+.whitepaperText {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.whitepaperDownload {
+  flex-shrink: 0;
+  padding: var(--space-xs) var(--space-md);
+  background: var(--color-primary);
+  color: white;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+
+.whitepaperDownload:hover {
+  opacity: 0.85;
+}
+
 .dimensionGroup {
   margin-bottom: var(--space-lg);
 }
