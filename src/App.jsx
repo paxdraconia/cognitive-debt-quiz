@@ -5,6 +5,7 @@ import ProgressBar from './components/ProgressBar';
 import Question from './components/Question';
 import Nudge from './components/Nudge';
 import Results from './components/Results';
+import AdminDashboard from './components/AdminDashboard';
 
 const pageVariants = {
   initial: { opacity: 0, x: 40 },
@@ -51,6 +52,10 @@ function IntroScreen({ onStart }) {
 
 export default function App() {
   const quiz = useQuiz();
+
+  if (typeof window !== 'undefined' && window.location.pathname === '/admin') {
+    return <AdminDashboard />;
+  }
 
   return (
     <div className="app">

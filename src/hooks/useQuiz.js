@@ -1,7 +1,8 @@
-import { useReducer, useCallback } from 'react';
+import { useReducer, useCallback, useEffect, useRef } from 'react';
 import questionsData from '../data/questions.json';
 import nudgesData from '../data/nudges.json';
 import { computeScores, matchProfile, getResourcesForProfile } from '../utils/scoring';
+import { submitQuiz } from '../lib/submitQuiz';
 
 const initialState = {
   phase: 'intro',       // intro | question | nudge | results
@@ -74,6 +75,17 @@ function reducer(state, action) {
 
 export function useQuiz() {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const submittedRef = useRef(false);
+
+  useEffect(() => {
+    if (state.phase === 'results' && state.scores && !submittedRef.current) {
+      submittedRef.current = true;
+      submitQuiz(state.answers, state.scores, state.profile);
+    }
+    if (state.phase === 'intro') {
+      submittedRef.current = false;
+    }
+  }, [state.phase, state.scores, state.answers, state.profile]);
 
   const startQuiz = useCallback(() => dispatch({ type: 'START_QUIZ' }), []);
 
