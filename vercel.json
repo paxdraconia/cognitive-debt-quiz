@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/admin-stats.js": {
+    "api/admin-stats.mjs": {
       "runtime": "nodejs20.x"
     }
   },
